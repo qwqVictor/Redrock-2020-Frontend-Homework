@@ -1,0 +1,147 @@
+body {
+    font-size: 13px;
+    line-height: 23px;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    min-width: 1250px;
+    min-height: 600px;
+    height: 100%;
+}
+
+.top-box {
+    margin-top: 8px;
+}
+
+.top-box a,a:link,a:visited {
+    color: #222;
+}
+
+.top-box a:hover {
+    color: #315efb;
+}
+
+.top-left-box {
+    position: absolute;
+    padding-left: 19px;
+}
+
+.top-right-box {
+    position: absolute;
+    right: 0;
+}
+
+.top-box a { 
+    margin-right: 30px;
+}
+
+.loginbtn {
+    color: white !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 5px solid #4e71f2;
+    border-radius: 8px;
+    background-color: #4e71f2;
+}
+
+.center-box {
+    position: absolute;
+    vertical-align: top;
+    top: 160px;
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+
+.baidu-logo {
+    width: 280px;
+    padding-bottom: 25px;
+}
+
+.search {
+    vertical-align: bottom;
+    border-radius: 6px;
+    border: 2px solid;
+}
+
+.search-box {
+    height: 44px;
+}
+
+.search-text {
+    height: 100%;
+    width: 480px;
+    outline: none;
+    padding: 10pt;
+    border-color: #c3c3c3;
+    border-radius: 10px 0 0 10px;
+    font-size: 12pt;
+}
+
+.search-text:active,.search-text:focus {
+    border-color: #4e6ef2;
+}
+
+.searchbtn {
+    cursor: pointer;
+    height: 100%;
+    margin-left: -5px;
+    padding: 0 12pt;
+    color: white;
+    font-size: 13pt;
+    border-color: #4e6ef2;
+    border-radius: 0 10px 10px 0;
+    background-color: #4e6ef2;
+}
+
+.bottom-box {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    bottom: 0;
+    padding-left: 2em;
+    background-color: #fbfbfb;
+}
+
+.bottom-box {
+    color: #9195a3;
+    font-size: 9pt;
+}
+
+.bottom-box a {
+    color: #9195a3;
+    margin-right: 10pt;
+}
+
+.bottom-box a:hover {
+    color: #222;
+}
+
+.bottom-left-box {
+    float: left;
+    position: absolute;
+    padding-left: 19px;
+    left: 0;
+}
+
+.bottom-right-box {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    padding-right: 30px;
+    color: #bbb;
+}
+
+.bottom-right-box a {
+    color: #bbb;
+}
+
+.bottom-right-box span {
+    margin-right: 24px;
+}
