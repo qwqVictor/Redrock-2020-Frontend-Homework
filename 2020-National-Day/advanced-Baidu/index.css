@@ -74,7 +74,7 @@ a {
 }
 
 .search-text {
-    height: calc(100% - 10px * 2 - 2px * 2);
+    height: calc(100% - 10px * 2 - 2px * 2); /* 100% - padding * 2 - border * 2 */
     width: 480px;
     outline: none;
     padding: 10px;
